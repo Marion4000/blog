@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("polices/Poppins-Regular.woff2") format("woff2"),
+    url("polices/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("polices/OpenSans-Bold.woff2") format("woff2"),
+    url("polices/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: "Poppins";
+}
+/* header & footer */
+a {
+  text-decoration: none;
+  color: #123a40;
+  font-weight: bold;
+}
+.logo {
+  background: linear-gradient(to right, black 70%, red, orange, yellow);
+  color: aliceblue;
+  width: 90vw;
+}
+.logo img,
+.logo figcaption {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1,
+h2,
+strong {
+  font-family: "Open Sans";
+}
+ul {
+  list-style-type: none;
+  background-color: #35838d;
+}
+
+footer ul {
+  background-color: #68ccd9;
+}
+/* Contenu */
+.gris,
+.gris ul {
+  background-color: #bad0d3;
+}
+
+figure img {
+  width: 200px;
+}
+
+strong {
+  font-size: 20px;
+  color: #123a40;
+}
+
+blockquote {
+  border: dashed 1px #8c5b35;
+  font-style: italic;
+  text-align: center;
+  padding: 30px;
+}
+blockquote span {
+  display: block;
+  text-align: right;
+}
+
+.pingpong {
+  text-align: center;
+  background: linear-gradient(
+    to bottom left,
+    #109bb19c 30%,
+    rgba(137, 255, 235, 0.342)
+  );
+  padding: 40px;
+}
+.pingpong table,
+.pingpong tr,
+.pingpong td {
+  width: 50%;
+  border: #123a40 solid 2px;
+  text-align: center;
+}
+.cours {
+  background: radial-gradient(white, rgba(176, 223, 255, 0.349));
+  margin-bottom: 100px;
+}
+.cours ul {
+  list-style-type: circle;
+  background: none;
+}
+
+.redirection {
+  text-align: center;
+  font-size: larger;
+  margin: 100px;
+}
